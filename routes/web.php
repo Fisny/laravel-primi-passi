@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',
+    [
+        "logo" => "https://www.laramind.com/blog/wp-content/uploads/2020/09/laravel-logo.jpg",
+    ]
+);
 });

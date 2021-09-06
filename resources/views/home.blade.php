@@ -8,5 +8,6 @@
 </head>
 <body>
     Hello World!
+    <img src="{{ $logo }}" alt="">
 </body>
 </html>
